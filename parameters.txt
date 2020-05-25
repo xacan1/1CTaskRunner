@@ -1,0 +1,15 @@
+#Программа должна лежать в C:\Program Files (x86)\1C_Exchange
+#CSTR - строка соединения
+#VERS - версия платформы
+#TEST - (True/False) если надо только протестировать соединение
+#MAIL - почтоый ящик для отправки сообщения об ошибке обмена
+#PASS - пароль от почты
+#SUBJ - тема письма, например "Ошибка на Пушкина" или "Ошибка в UT_CIB"
+#
+CSTR:Srvr=adbm.domain.local;Ref=UT_CIB;Usr=V8ExchangeUser;Pwd=kturjdeirf-2110;
+VERS:V83
+MAIL:alert@ladya-avto.ru
+PASS:zaq!2345
+ADDR:it@ladya-avto.ru
+SUBJ:Ошибка обмена в Центральной базе
+TEST:True
