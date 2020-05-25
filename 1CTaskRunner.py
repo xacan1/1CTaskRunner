@@ -15,7 +15,7 @@ class EmailSender:
         self.password = password
         self.subject = subject
         self.receiver_emails = receiver_emails
-        self.context = ssl.create_default_context()# Создание безопасного контекста SSL
+        self.context = ssl.create_default_context()# Создание безопасного контекста SSL 
 
     def SendMessage(self, message):
         msg = MIMEMultipart()
